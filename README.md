@@ -17,13 +17,15 @@ This tool simplifies data by reducing the number of points in a curve using the 
 2. Install the required libraries:
 
 ```bash
-pip install tkinter pandas matplotlib rdp  # Replace 'rdp' with the library name if not built-in
+pip install tkinter pandas matplotlib rdp
+```
 
 **Usage:**
 
 1. Run the script using the command:
-'''bash
+```bash
 python main.py
+```
 
 2. Click the "Select CSV File" button to choose your data file. The file must be a simple CSV with X-coordinates in the first column and Y-coordinates in the second column.
 3. Adjust the epsilon slider to control the level of simplification. Higher epsilon values lead to greater reduction in points.
