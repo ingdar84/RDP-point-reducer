@@ -17,7 +17,7 @@ This tool simplifies data by reducing the number of points in a curve using the 
 2. Install the required libraries:
 
 ```bash
-pip install tkinter pandas matplotlib rdp
+pip install pandas matplotlib rdp
 ```
 
 **Usage:**
